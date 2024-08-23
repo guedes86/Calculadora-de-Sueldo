@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Sueldo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="calculadora">
+        <form action="Calcular Sueldo">
+            <h1>Calculadora de Sueldo</h1>
+            <label for="horas">Horas trabajadas:<input type="number" id="horas" required></label>
+            <label for="valorunitario">Valor por hora:<input type="number" id="valorunitario" required></label>
+            <button type="button" onclick="calcularsueldo()">Calcular Sueldo</button>
+            <p id="sueldo"></p>
+        </form>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
